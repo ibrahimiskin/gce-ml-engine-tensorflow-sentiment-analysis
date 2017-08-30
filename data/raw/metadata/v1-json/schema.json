@@ -1,0 +1,39 @@
+{
+  "feature": [
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808"
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "label",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "strings": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "review",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {}
+        }
+      },
+      "type": "BYTES"
+    }
+  ],
+  "sparseFeature": []
+}
